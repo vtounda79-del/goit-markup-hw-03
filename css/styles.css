@@ -55,7 +55,6 @@ img {
   overflow: hidden;
 }
 
-/* Header */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -69,6 +68,10 @@ img {
 .page-nav {
   display: flex;
   align-items: center;
+}
+
+.header-logo {
+  margin-right: 76px;
 }
 
 .logo {
@@ -87,10 +90,6 @@ img {
 
 .footer-logo-part {
   color: #f4f4fd;
-}
-
-.page-nav .logo {
-  margin-right: 76px;
 }
 
 .nav-list {
@@ -136,14 +135,9 @@ img {
   color: #404bbf;
 }
 
-/* Hero */
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
-}
-
-.hero-container {
-  text-align: center;
 }
 
 .hero-title {
@@ -152,19 +146,19 @@ img {
   font-size: 56px;
   line-height: 1.07;
   font-weight: 700;
+  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 
 .hero-button {
   display: block;
-  min-width: 169px;
-  height: 56px;
   margin: 0 auto;
+  padding: 16px 32px;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
   background-color: #4d5ae5;
+  cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -178,7 +172,6 @@ img {
   background-color: #404bbf;
 }
 
-/* Common titles/text */
 .section-title {
   margin-bottom: 72px;
   font-size: 36px;
@@ -203,10 +196,8 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
-/* Benefits */
 .benefits-list {
   display: flex;
   gap: 24px;
@@ -216,7 +207,6 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
-/* Team */
 .team-section {
   background-color: #f4f4fd;
 }
@@ -233,7 +223,7 @@ img {
 }
 
 .team-card-content {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 
 .team-name,
@@ -241,7 +231,6 @@ img {
   text-align: center;
 }
 
-/* Portfolio */
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -259,14 +248,9 @@ img {
   border-top: none;
 }
 
-/* Footer */
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
-}
-
-.footer-container {
-  display: block;
 }
 
 .footer-logo {
@@ -276,6 +260,7 @@ img {
 
 .footer-text {
   max-width: 264px;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
